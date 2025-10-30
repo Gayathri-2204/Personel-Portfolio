@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | GUNTURU LAKSHMI GAYATHRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+    }
+    .navbar, .footer {
+      background-color: #232323;
+    }
+    .contact-section {
+      background-color: #1b1b1b;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-top: 3rem;
+      box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+    }
+    .form-label {
+      color: #b2f5ea;
+    }
+    .form-control, .form-select {
+      background: #232323;
+      color: #eee;
+      border: 1px solid #444;
+    }
+    .contact-info {
+      background: #232323;
+      border-radius: 8px;
+      padding: 2rem;
+      color: #b2f5ea;
+    }
+    .contact-info h5 {
+      color: #eee;
+    }
+    .btn-info {
+      background-color: #2a9df4;
+      border: none;
+    }
+    .btn-info:hover {
+      background-color: #1272b7;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">GUNTURU LAKSHMI GAYATHRI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h2 class="section-title mb-4">Contact Me</h2>
+    <div class="row g-5 align-items-start">
+      <!-- Contact Details -->
+      <div class="col-md-5">
+        <div class="contact-info">
+          <h5>Contact Information</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">&#9993; Email: <a href="mailto:lakshmigayathri2021@gmail.com" style="color:#2a9df4;">lakshmigayathri2021@gmail.com</a></li>
+            <li class="mb-3">&#128222; Phone: <a href="tel:+1234567890" style="color:#2a9df4;">+91 891961363</a></li>
+            <li class="mb-3">&#127968; Location: <a href="https://www.mapsofindia.com/maps/andhrapradesh/" style="color: #2a9df4;">AP, INDIA</a></li>
+            <li class="mb-3">&#128100; Social: 
+              <a href="https://www.linkedin.com/in/gunturu-lakshmi-gayathri-1444362a7/" style="color:#2a9df4;" target="_blank">LinkedIn</a>
+              | <a href="https://github.com/Gayathri-2204" style="color:#2a9df4;" target="_blank">GitHub</a>
+              | <a href="https://www.instagram.com/gayathri_30102025/" style="color:#2a9df4;" target="_blank">Instagram</a>
+            </li>
+          </ul>
+          <p class="mt-4 mb-0">Feel free to reach out for collaborations, freelance work, or just to say hello!</p>
+        </div>
+      </div>
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <div class="contact-section">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="button" class="btn btn-info px-4" data-bs-toggle="modal" data-bs-target="#successModal">
+              Send Message
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="successModalLabel">Message Sent!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for reaching out! Your message has been submitted successfully.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Thank You Section -->
+    <section class="text-center py-5 mt-5">
+      <h2 class="display-5" style="color:#b2f5ea;">Thank You for Visiting!</h2>
+      <p class="lead mb-4" style="color:#eee;">Your interest and time mean a lot. Looking forward to connect with you.</p>
+      <div style="font-size:3rem; color:#e25555;">
+        &#10084;&#65039;
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer py-4 text-center small">
+    &copy; G.L.GAYATHRI. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
